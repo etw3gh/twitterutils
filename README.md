@@ -8,7 +8,7 @@ Very basic utils to manage your personal twitter account without resorting to th
 
   del.py uses the twitter library
 
-  unfollow.py uses the twitter REST api
+  unfollow.py and unfav.py use the twitter REST api
 
   see requirements.txt
 
@@ -45,6 +45,9 @@ append to param list
 
 Run the scripts however many times it take to clear your account
 
+## Unfollow non followers
+
+  python unfollow.py -v
 
 ## Delete Tweets and Retweets
 
